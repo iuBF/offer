@@ -1,0 +1,6 @@
+<view class="search-container">
+  <view class="search-box">
+    <input class="search-input" bindinput="onInput" placeholder="职位/公司名"></input>
+    <button class="search-btn" bindtap="onSearch">搜索</button>
+  </view>
+</view>

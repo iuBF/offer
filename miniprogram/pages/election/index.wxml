@@ -1,0 +1,11 @@
+<!--pages/election/index.wxml-->
+<view class="header"></view>
+
+<swiper class="carousel" indicator-dots	indicator-active-color="#45c8dc" autoplay circular>
+  <swiper-item wx:for="{{carousel}}" wx:key="id">
+    <view class="carousel-item" bindtap="openCarousel">
+      <image src="{{item.image}}" />
+    </view>
+  </swiper-item>
+</swiper>
+

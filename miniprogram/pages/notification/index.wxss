@@ -1,0 +1,56 @@
+.container {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  padding: 20rpx;
+}
+
+.tabs {
+  display: flex;
+  width: 100%;
+  margin: 1rpx 0rpx 5rpx 0rpx;
+  padding: 0rpx;
+  border: 0rpx;
+  border-bottom: 1rpx solid #eee;
+  background-color:  rgb(22, 186, 192);
+}
+
+.tab {
+  flex: 1;
+  text-align: center;
+  padding: 10rpx;
+}
+
+.tab.active {
+  color: #f60;
+  font-weight: bold;
+}
+
+.content {
+  width: 100%;
+  height: 300rpx;
+  margin-top: 20rpx;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  padding: 10rpx;
+  border-bottom: 1rpx solid #eee;
+}
+
+.title {
+  font-size: 30rpx;
+  margin-top: 30rpx;
+}
+
+.info {
+  display: flex;
+  font-size: 16rpx;
+  margin-bottom: 30rpx;
+  justify-content: space-between;
+}
+
+.time,
+.views {
+  font-size: 14rpx;
+  color: #999;
+}

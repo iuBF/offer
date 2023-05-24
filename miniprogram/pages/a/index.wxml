@@ -1,0 +1,28 @@
+<view class="search-container">
+  <view class="search-box">
+    <input class="search-input" bindinput="onInput" placeholder="职位/公司名"></input>
+    <button class="search-btn" bindtap="onSearch">搜索</button>
+  </view>
+</view>
+<view class="container">
+  <view class="tabs">
+  <!--
+    <view wx:for="{{tabs}}" wx:key="index" class="tab {{activeIndex === index ? 'active' : ''}}" bindtap="switchTab" data-index="{{index}}">
+      {{item}}
+    </view>
+    -->
+  </view>
+  
+  <view class="content-block-title">招聘信息</view>
+  <view class="content">
+    <block wx:for="{{list}}" wx:key="id">
+      <navigator url="/pages/detail/detail?id={{item.id}}" class="item">
+        <view class="title">{{item.title}}</view>
+        <view class="info">
+          <text class="time">{{item.time}}</text>
+          <text class="views">浏览量：{{item.views}}</text>
+        </view>
+      </navigator>
+    </block>
+  </view>
+</view>

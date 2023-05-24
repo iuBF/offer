@@ -1,0 +1,76 @@
+{
+  "pages": [
+    "pages/seminar/index",
+    "pages/seminar/detail",
+    "pages/seminar/company",
+    "pages/notification/index",
+    "pages/notification/detail",
+    "pages/enrollment/index",
+    "pages/enrollment/detail",
+    "pages/me/index",
+    "pages/me/calendar/index",
+    "pages/me/school/index",
+    "pages/me/news/index",
+    "pages/me/news/detail",
+    "pages/me/contact/index",
+    "pages/common/map",
+    "pages/common/webview",
+    "pages/election/index",
+    "pages/election/detail/index",
+    "pages/election/detail/company",
+    "pages/election/detail/position",
+    "pages/a/index",
+    "pages/shaungxuan/index",
+    "pages/jiuye/index",
+    "pages/qiuzhi/index",
+    "pages/shengya/index",
+    "components/search/index"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#45c8dc",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "offer同学",
+    "onReachBottomDistance": 100,
+    "backgroundTextStyle": "dark"
+  },
+  "tabBar": {
+    "color": "#929292",
+    "selectedColor": "#45c8dc",
+    "backgroundColor": "#f7f7f8",
+    "list": [
+      {
+        "pagePath": "pages/seminar/index",
+        "text": "发现",
+        "iconPath": "./images/tabbar/seminar.png",
+        "selectedIconPath": "./images/tabbar/seminar_s.png"
+      },
+      {
+        "@pagePath": "pages/enrollment/index",
+        "pagePath": "pages/a/index",
+        "text": "招聘",
+        "iconPath": "./images/tabbar/job.png",
+        "selectedIconPath": "./images/tabbar/job_s.png"
+      },
+      {
+        "pagePath": "pages/election/index",
+        "text": "交流",
+        "iconPath": "./images/tabbar/election.png",
+        "selectedIconPath": "./images/tabbar/election_s.png"
+      },
+      {
+        "pagePath": "pages/notification/index",
+        "text": "通知",
+        "iconPath": "./images/tabbar/notification.png",
+        "selectedIconPath": "./images/tabbar/notification_s.png"
+      },
+      {
+        "pagePath": "pages/me/index",
+        "text": "我",
+        "iconPath": "./images/tabbar/me.png",
+        "selectedIconPath": "./images/tabbar/me_s.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}

@@ -1,0 +1,40 @@
+
+page, .page-content {
+  background: #efeff4;
+}
+
+.page-content {
+  padding: 12px;
+}
+
+.header {
+  position: absolute;
+  height: 48px;
+  width: 100%;
+  background-color: #45c8dc;
+}
+
+.card {
+  margin-bottom: 12px;
+}
+
+.card-header {
+  height: 129px;
+  background-size: cover;
+  background-position: center;
+}
+
+.carousel {
+  height: 194px;
+}
+
+.carousel-item {
+  padding: 12px 12px 0;
+}
+
+.carousel-item > image {
+  width: 100%;
+  height: 180px;
+  border-radius: 2px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}

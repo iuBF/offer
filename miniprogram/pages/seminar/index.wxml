@@ -1,0 +1,71 @@
+<view class="view1">
+  <view class="photo1">
+    <image class="first" style="margin-left: 50rpx;" src="../../images/aaa/first.png" />
+  </view>
+  <view class="gaoxiaoxinxi">
+    <view style="font-size: 40rpx; font-weight: bold; margin-left: 38%; ">
+      石河子大学
+    </view>
+    <view class="row1">
+      <view style=" margin-left: 30%;margin-bottom: 12px; padding: 0 12px 0 12px; background-color: #45c8dc; border-radius: 5px;">
+        211
+      </view>
+      <view style=" margin-left: 10%; margin-bottom: 12px; padding: 0 12px 0 12px; background-color: #45c8dc; border-radius: 5px;">
+        全国毕业生就业典型高校
+      </view>
+    </view>
+
+    <view class="row2" style="margin-left: 32%;margin-right: 34%; margin-bottom: 12px; padding: 0 12px 0 12px; background-color: #45c8dc; border-radius: 5px;">
+      全国创新创业典型经验高校
+    </view>
+
+  </view>
+
+  <view class="shaungxuan">
+    <view class="shuangxuan1">
+      <view catchtap="enterShuangxuan">
+        <image style="height: 70rpx; width: 70rpx; margin-left: 30rpx;" src="../../images/aaa/1.png" />
+      </view>
+      <view catchtap="enterShuangxuan">
+        <image style="height: 70rpx; width: 70rpx; margin-left: 80rpx;" src="../../images/aaa/2.png" />
+      </view>
+      <view catchtap="enterJiuye">
+        <image style="height: 70rpx; width: 70rpx; margin-left: 80rpx;" src="../../images/aaa/3.png" />
+      </view>
+      <view catchtap="enterShengya">
+        <image style="height: 70rpx; width: 70rpx; margin-left: 80rpx;" src="../../images/aaa/4.png" />
+      </view>
+      <view catchtap="enterQiuzhi">
+        <image style="height: 70rpx; width: 70rpx; margin-left: 80rpx;" src="../../images/aaa/5.png" />
+      </view>
+    </view>
+    <view class="shuangxuan2">
+      <view catchtap="enterShuangxuan" style="margin-left: 45rpx;">
+        双选会
+      </view>
+      <view catchtap="enterShuangxuan" style="margin-left: 90rpx;">
+        宣讲会
+      </view>
+      <view catchtap="enterJiuye" style="margin-left: 100rpx;">
+        就业咨询
+      </view>
+      <view catchtap="enterShengya" style="margin-left: 85rpx;">
+        生涯规划
+      </view>
+      <view catchtap="enterQiuzhi" style="margin-left: 80rpx;">
+        求职工具
+      </view>
+    </view>
+</view>
+
+  <view class="photo2">
+    <view class="p_row1">
+      <image style="margin-left: 5rpx; margin-right: 5rpx; height: 140px; width: 749rpx;" src="../../images/aaa/p1.png"></image>
+    </view>
+    <view class="p_row2">
+      <image style="height: 110px;" src="../../images/aaa/p2.png"></image>
+      <image style="height: 110px;" src="../../images/aaa/p3.png"></image>
+    </view>
+  </view>
+
+</view>
